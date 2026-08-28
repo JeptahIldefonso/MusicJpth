@@ -1,0 +1,231 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - navigation "Main" [ref=e4]:
+      - link "JEPTAH.Z" [ref=e5] [cursor=pointer]:
+        - /url: /
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Projects" [ref=e8] [cursor=pointer]:
+            - /url: /#projects
+        - listitem [ref=e9]:
+          - link "About" [ref=e10] [cursor=pointer]:
+            - /url: /#about
+        - listitem [ref=e11]:
+          - link "Contact" [ref=e12] [cursor=pointer]:
+            - /url: /#contact
+        - listitem [ref=e13]:
+          - link "Education" [ref=e14] [cursor=pointer]:
+            - /url: /experience-education
+        - listitem [ref=e15]:
+          - link "Resume" [ref=e16] [cursor=pointer]:
+            - /url: /resume
+      - button "Switch to vibrant theme" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: MONO
+        - generic [ref=e19]: /
+        - generic [ref=e20]: VIBRANT
+  - main [ref=e21]:
+    - region [ref=e22]:
+      - link "Admin access — only Jeptah can open this" [ref=e23] [cursor=pointer]:
+        - /url: /admin
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - separator [ref=e27]
+          - heading "Jeptah Ashley Ildefonso" [level=1] [ref=e29]
+          - paragraph [ref=e30]:
+            - generic [ref=e31]: Quezon City (Philippines)
+            - generic [ref=e32]: —
+            - generic [ref=e33]: idk
+            - generic [ref=e34]: —
+            - generic [ref=e35]: Open to opportunities and conversation
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Full-Stack dev
+            - paragraph [ref=e41]: Bio im Sophomore Computer Science student this 2026 Exploring Full-stack development junior knowledge work with AI
+            - navigation [ref=e42]:
+              - paragraph [ref=e43]: Connect
+              - list [ref=e44]:
+                - listitem [ref=e45]:
+                  - link "GITHUB" [ref=e46] [cursor=pointer]:
+                    - /url: https://github.com/JeptahIldefonso
+                    - generic [ref=e48]: ↗
+                - listitem [ref=e49]:
+                  - link "FACEBOOK" [ref=e50] [cursor=pointer]:
+                    - /url: https://www.facebook.com/DxzJeptah
+                    - generic [ref=e52]: ↗
+                - listitem [ref=e53]:
+                  - link "CONTACT NO." [ref=e54] [cursor=pointer]:
+                    - /url: "09931516613"
+            - generic [ref=e56]:
+              - paragraph [ref=e57]: Resume
+              - generic [ref=e58]:
+                - link "Download resume" [ref=e59] [cursor=pointer]:
+                  - /url: https://f78hkirlzn5kxtyj.public.blob.vercel-storage.com/assets/47b4eed4e3944db3c5bd92a159d9d2bfac54a920bd838771de15ee371225b2a1.pdf
+                  - text: Download resume
+                  - generic [ref=e60]: ↓
+                - link "View Resume" [ref=e61] [cursor=pointer]:
+                  - /url: https://f78hkirlzn5kxtyj.public.blob.vercel-storage.com/assets/47b4eed4e3944db3c5bd92a159d9d2bfac54a920bd838771de15ee371225b2a1.pdf
+                  - generic [ref=e63]: ↗
+        - complementary "Currently" [ref=e64]:
+          - paragraph [ref=e67]: Online
+          - paragraph [ref=e68]: Just Chilling
+    - region [ref=e69]:
+      - paragraph [ref=e70]: PROJECTS
+      - generic [ref=e71]:
+        - heading "Featured Projects" [level=2] [ref=e72]
+        - link "All projects" [ref=e73] [cursor=pointer]:
+          - /url: /projects
+          - text: All projects
+          - generic [ref=e74]: →
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - text: "01"
+          - link "View details for Schedule, Alarm Mobile app" [ref=e77] [cursor=pointer]:
+            - /url: /projects/software
+          - generic [ref=e79]:
+            - paragraph [ref=e80]: 01 / Solo Dev
+            - heading [level=3] [ref=e81]:
+              - link "Schedule, Alarm Mobile app" [ref=e82] [cursor=pointer]:
+                - /url: /projects/software
+            - paragraph [ref=e83]: Mobile application productivity app works offline
+            - list "Technologies used" [ref=e84]:
+              - listitem [ref=e85]: React Native
+              - listitem [ref=e86]: js.framework
+              - listitem [ref=e87]: localstorage
+            - link "VIEW PROJECT" [ref=e88] [cursor=pointer]:
+              - /url: /projects/software
+              - text: VIEW PROJECT
+              - generic [ref=e89]: →
+        - listitem [ref=e90]:
+          - text: "02"
+          - link "View details for ExpenseTrack (Mobile App" [ref=e91] [cursor=pointer]:
+            - /url: /projects/mobile-app2nd
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: 02 / Solo Dev
+            - heading [level=3] [ref=e95]:
+              - link "ExpenseTrack (Mobile App" [ref=e96] [cursor=pointer]:
+                - /url: /projects/mobile-app2nd
+            - paragraph [ref=e97]: my inserting your expenses daily it can track and calculate and give summary and also charts from category where you money spends mo and give you feedback monthly or yearly.
+            - list "Technologies used" [ref=e98]:
+              - listitem [ref=e99]: React Native
+              - listitem [ref=e100]: local storage
+              - listitem [ref=e101]: node.js
+            - link "VIEW PROJECT" [ref=e102] [cursor=pointer]:
+              - /url: /projects/mobile-app2nd
+              - text: VIEW PROJECT
+              - generic [ref=e103]: →
+        - listitem [ref=e104]:
+          - text: "03"
+          - link "View details for VibeAlarm" [ref=e105] [cursor=pointer]:
+            - /url: /projects/software-1st
+          - generic [ref=e107]:
+            - paragraph [ref=e108]: 03 / Solo dev, Full-stack
+            - heading [level=3] [ref=e109]:
+              - link "VibeAlarm" [ref=e110] [cursor=pointer]:
+                - /url: /projects/software-1st
+            - paragraph [ref=e111]: Computer software application open on start up very light and easy to use and straight forward and also works offline
+            - link "VIEW PROJECT" [ref=e112] [cursor=pointer]:
+              - /url: /projects/software-1st
+              - text: VIEW PROJECT
+              - generic [ref=e113]: →
+        - listitem [ref=e114]:
+          - text: "04"
+          - link "View details for WidgetJpth" [ref=e115] [cursor=pointer]:
+            - /url: /projects/mobileapp3rd
+          - generic [ref=e117]:
+            - paragraph [ref=e118]: 04 / Solo dev
+            - heading [level=3] [ref=e119]:
+              - link "WidgetJpth" [ref=e120] [cursor=pointer]:
+                - /url: /projects/mobileapp3rd
+            - paragraph [ref=e121]: widget notes for android both text and images
+            - list "Technologies used" [ref=e122]:
+              - listitem [ref=e123]: Kotlin
+              - listitem [ref=e124]: React Native
+            - link "VIEW PROJECT" [ref=e125] [cursor=pointer]:
+              - /url: /projects/mobileapp3rd
+              - text: VIEW PROJECT
+              - generic [ref=e126]: →
+    - region [ref=e127]:
+      - paragraph [ref=e128]: EXPERIENCE
+      - generic [ref=e129]:
+        - heading "Experience" [level=2] [ref=e130]
+        - link "View all" [ref=e131] [cursor=pointer]:
+          - /url: /experience-education
+          - text: View all
+          - generic [ref=e132]: →
+      - list [ref=e133]:
+        - listitem [ref=e134]:
+          - generic [ref=e135]:
+            - heading "Full-stack" [level=3] [ref=e136]
+            - paragraph [ref=e137]: 2006 — 2025
+          - paragraph [ref=e138]:
+            - link "N/A" [ref=e139] [cursor=pointer]:
+              - /url: https://jeptahportfolio.vercel.app/admin/experience/exp
+    - region [ref=e140]:
+      - paragraph [ref=e141]: EDUCATION
+      - generic [ref=e142]:
+        - heading "Education" [level=2] [ref=e143]
+        - link "View all" [ref=e144] [cursor=pointer]:
+          - /url: /experience-education
+          - text: View all
+          - generic [ref=e145]: →
+      - list [ref=e146]:
+        - listitem [ref=e147]:
+          - generic [ref=e148]:
+            - heading "Bachelor of Science In Computer Studies" [level=3] [ref=e149]
+            - paragraph [ref=e150]: 2026 — Present
+          - paragraph [ref=e152]:
+            - link "New era University" [ref=e153] [cursor=pointer]:
+              - /url: https://neu.edu.ph/main/
+        - listitem [ref=e154]:
+          - generic [ref=e155]:
+            - heading "BS Computer Science - 1st year" [level=3] [ref=e156]
+            - paragraph [ref=e157]: 2025 — 2026
+          - paragraph [ref=e158]:
+            - link "STI fairview" [ref=e159] [cursor=pointer]:
+              - /url: https://www.sti.edu/campuses-details.asp?campus_id=RkFJ
+    - region [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - paragraph [ref=e163]: ABOUT
+          - heading "About" [level=2] [ref=e164]
+        - paragraph [ref=e167]: Bio im Sophomore Computer Science student this 2026 Exploring Full-stack development junior knowledge work with AI
+        - generic [ref=e169]:
+          - term [ref=e170]: BASED IN
+          - definition [ref=e171]: Quezon City (Philippines)
+    - region [ref=e172]:
+      - generic [ref=e173]:
+        - paragraph [ref=e174]: Contact
+        - heading "Let's team up" [level=2] [ref=e175]
+        - generic [ref=e176]:
+          - link "ildefonsojeptahashleyr@gmail.com" [ref=e177] [cursor=pointer]:
+            - /url: mailto:ildefonsojeptahashleyr@gmail.com
+          - button "Copy" [ref=e178] [cursor=pointer]
+          - status
+    - generic [ref=e180]:
+      - generic [ref=e181]:
+        - paragraph [ref=e182]: Jeptah Ashley Ildefonso
+        - paragraph [ref=e183]: Full-Stack dev
+      - generic [ref=e184]:
+        - navigation "Footer" [ref=e185]:
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - link "Home" [ref=e188] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e189]:
+              - link "Projects" [ref=e190] [cursor=pointer]:
+                - /url: /projects
+            - listitem [ref=e191]:
+              - link "Education" [ref=e192] [cursor=pointer]:
+                - /url: /experience-education
+            - listitem [ref=e193]:
+              - link "Resume" [ref=e194] [cursor=pointer]:
+                - /url: /resume
+        - list "Contact and social links" [ref=e195]:
+          - listitem [ref=e196]:
+            - link "Contact No." [ref=e197] [cursor=pointer]:
+              - /url: "09931516613"
+        - link "ildefonsojeptahashleyr@gmail.com" [ref=e198] [cursor=pointer]:
+          - /url: mailto:ildefonsojeptahashleyr@gmail.com
+      - paragraph [ref=e199]: © 2026 Jeptah Ashley Ildefonso
+  - alert [ref=e200]
